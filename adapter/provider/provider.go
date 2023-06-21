@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	regexp "github.com/dlclark/regexp2"
 	"runtime"
 	"time"
 
@@ -14,6 +13,7 @@ import (
 	C "github.com/Dreamacro/clash/constant"
 	types "github.com/Dreamacro/clash/constant/provider"
 
+	regexp "github.com/dlclark/regexp2"
 	"github.com/samber/lo"
 	"gopkg.in/yaml.v3"
 )
